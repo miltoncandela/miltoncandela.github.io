@@ -92,17 +92,18 @@
 </header>
 
 <div class="container"><div><p><b>High-res Fetal Subplate Segmentation</b></p></div><div><p style="text-align: right;">2024</p></div></div>
-- Upsampled, aligned, and corrected subplate segmentation in a high voxel resolution (0.5 mm), implemented Bivariate Gaussian Smoothing (BGS) for step-like boundaries, further training a U-Net leveraged by transfer-learning for automatic segmentation; <a href="highres_slides.pdf">[slides]</a>
+- Implemented Bivariate Gaussian Smoothing (BGS) for fast construction of a new
+high-resolution training dataset, further fitted an U-Net leveraged by transfer-learning; <a href="highres_slides.pdf">[slides]</a>
 
 <figure><img src="subplate2.png" width="500px"/></figure>
 	
 <div class="container"><div><p><b>Non-linear qMRI for CHD Classification</b></p></div><div><p style="text-align: right;">2024</p></div></div>
-- Designed Recursive RF importance (RRFi) for feature selection (20,453), further creating a 5-feature kNN model with 0.88 F1-score (0.10 better than baseline) and discovering fetal biomarkers; <a href="chd_slides.pdf">[slides]</a>
+- Designed Recursive RF importance (RRFi) for feature selection (20,453), further creating a 5-feature kNN model with 0.88 F1-score, discovering biomarkers; <a href="chd_slides.pdf">[slides]</a>
 
 <figure><img src="chd1.png" width="500px"/></figure>
 
 <div class="container"><div><p><b>Unsupervised VAE-GAN for Anomaly</b></p></div><div><p style="text-align: right;">2024</p></div></div>
-- Trained an age-informed GAN model in typically developed fetal brains with a novel age encoding: Bidirectional Ordinary Encoding (BOE) that detected abnormalities with AUC = 90%; <a href="gan_slides.pdf">[slides]</a>
+- Trained an age-informed model in typically developed fetal brains with a novel age encoding: Bidirectional Ordinary Encoding (BOE); <a href="gan_slides.pdf">[slides]</a>
 
 <figure><img src="gan1.png" width="500px"/></figure>
 <figure><img src="gan2.png" width="500px"/></figure>
