@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en" class="no-js">
+   <head>
+      <meta charset="utf-8">
+      <!-- begin SEO -->
+      <title>Projects - Milton Candela</title>
+      <meta property="og:locale" content="en-US">
+      <meta property="og:site_name" content="Milton Candela">
+      <meta property="og:title" content="Projects">
+      <link rel="canonical" href="https://miltoncandela.com/projects.html">
+      <meta property="og:url" content="https://miltoncandela.com/projects.html">
+      <meta property="og:description" content="Research projects">
+      <script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Person", "name" : "Milton Candela", "url" : "https://miltoncandela.com", "sameAs" : null } </script> <!-- end SEO -->
+      <link href="https://miltoncandela.com/feed.xml" type="application/atom+xml" rel="alternate" title="Milton Candela Feed">
+      <meta name="HandheldFriendly" content="True">
+      <meta name="MobileOptimized" content="320">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script> document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '; </script>
+      <link rel="stylesheet" href="https://miltoncandela.com/assets/css/main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <meta http-equiv="cleartype" content="on">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://miltoncandela.com/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+      <link rel="icon" type="image/png" href="https://miltoncandela.com/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+      <link rel="icon" type="image/png" href="https://miltoncandela.com/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+      <link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+      <meta name="theme-color" content="#ffffff">
+      <link rel="stylesheet" href="https://miltoncandela.com/assets/css/academicons.css"/>
+      <!-- page-specific styles: project sections + Yulia-style paper cards -->
+      <style>
+         .container { padding-left: 23px; }
+         .role-line { font-style: italic; color: #555; margin: 0.5em 0 1em 0; }
+         .project-section { margin-bottom: 1.25em; padding-bottom: 1em; border-bottom: none;}
+         .project-section h3 { margin: 0 0 0.4em 0; line-height: 1.25; }
+         .project-section p  { margin: 0 0 0.5em 0; line-height: 1.4; }
+
+         /* tighter table rows */
+         .project-section table {border-spacing: 0 4px !important; margin: 0 !important;}
+         .project-section table,
+         .project-section tr,
+         .project-section td {border: none !important; background: transparent !important; line-height: 1.35;}
+         .project-section td { font-size: 0.95em; }
+
+         /* image cell: narrower padding, slightly wider column so images stay readable */
+         .project-section td:first-child {padding: 4px 12px 4px 0 !important; width: 22% !important;}
+         .project-section td:last-child {padding: 4px 0 !important; width: 78% !important;}
+
+         /* uniform thumbnail height so rows stay short and aligned */
+         .project-section td:first-child img {width: 100%; height: 90px; object-fit: contain; border-radius: 4px; display: block;}
+         .page__title { margin-top: 0.5em; }         /* tighter page title area */
+         .project-section:last-of-type { border-bottom: none; }
+
+         .li-embed-wrap { position: relative; width: 100%; max-width: 340px; margin: 1em 0; padding-bottom: 177.78%; overflow: hidden; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.12); }
+         .li-embed-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+         /* --- paper cards, modeled on yuliarubanova.github.io --- */
+         .paper-list { display: flex; flex-direction: column; gap: 1.5em; margin: 1em 0 0.5em 0; }
+         .paper-card { display: flex; gap: 1.25em; align-items: flex-start; }
+         .paper-image { flex: 0 0 150px; display: block; border-radius: 6px; overflow: hidden; }
+         .paper-image img { width: 100%; height: 100px; object-fit: cover; display: block; }
+         .paper-copy { flex: 1 1 auto; min-width: 0; }
+         .paper-meta { font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.06em; color: #8a8a8a; margin: 0 0 0.3em 0; }
+         .paper-copy h4 { margin: 0 0 0.35em 0; font-size: 1.05em; }
+         .paper-impact { margin: 0 0 0.35em 0; color: #333; }
+         .paper-citation { margin: 0 0 0.15em 0; font-size: 0.88em; color: #666; }
+         .paper-venue { margin: 0; font-size: 0.88em; color: #666; }
+         .paper-inline-links a { margin-left: 0.75em; }
+         @media (max-width: 600px) {
+            .paper-card { flex-direction: column; }
+            .paper-image { flex: 0 0 auto; max-width: 220px; }
+            .paper-image img { height: 130px; }
+         }
+      </style>
+   </head>
+   <body>
+      <div class="masthead">
+         <div class="masthead__inner-wrap">
+            <div class="masthead__menu">
+               <nav id="site-nav" class="greedy-nav">
+                  <ul class="visible-links">
+                     <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://miltoncandela.com/">Milton Candela</a></li>
+                     <li class="masthead__menu-item"><a href="https://miltoncandela.com/publications.html">Publications</a></li>
+                     <li class="masthead__menu-item"><a href="https://miltoncandela.com/research.html">Research</a></li>
+                     <li class="masthead__menu-item"><a href="https://miltoncandela.com/presentations.html">Presentations</a></li>
+                  </ul>
+                  <ul class="hidden-links hidden">
+                     <li class="masthead__menu-item"><a href="https://miltoncandela.com/publications.html">Publications</a></li>
+                      <li class="masthead__menu-item"><a href="https://miltoncandela.com/research.html">Research</a></li>
+                     <li class="masthead__menu-item"><a href="https://miltoncandela.com/presentations.html">Presentations</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+
+      <div id="main" role="main">
+         <div class="sidebar sticky">
+            <div itemscope itemtype="http://schema.org/Person">
+               <div class="author__avatar"> <img src="https://miltoncandela.com/milton-headshot.jpg" class="author__avatar" alt="Milton Candela"></div>
+               <div class="author__content">
+                  <h3 class="author__name">Milton Candela</h3>
+                  <p class="author__bio">RA @ Houston Methodist | Tec '24 | HMS '24 | U21 HSG '24</p>
+               </div>
+               <div class="author__urls-wrapper">
+                  <button class="btn btn--inverse">Follow</button>
+                  <ul class="author__urls social-icons">
+                    <li><a href="https://www.linkedin.com/in/miltoncandela/"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+                    <li><a href="https://github.com/miltoncandela"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+                    <li><a href="https://scholar.google.com/citations?user=HACQrpoAAAAJ&hl=en"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+                    <li><a href="https://www.researchgate.net/profile/Milton-Candela"><i class="fas fa-fw fa-flask"></i> ResearchGate</a></li>
+                    <li><a href="https://orcid.org/0000-0001-7807-2539"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
+                    <li><a href="https://miltoncandela.com/CandelaMilton_CV.pdf"><i class="fas fa-fw fa-file"></i> CV</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+            <meta itemprop="headline" content="Projects">
+            <meta itemprop="description" content="Research projects">
+            <div class="page__inner-wrap">
+               <header><h2 class="page__title" itemprop="headline">Research</h2></header>
+
+               <!-- ================= PROJECT 1 ================= -->
+               <div class="project-section">
+                  <h3>Investigating neurophysiological responses to spinal neuromodulation</h3>
+                  <!-- <p class="role-line">DRAFT — please verify/edit: current work, Research Assistant with Dr. Dimitry Sayenko, Houston Methodist.</p>
+                   <p>Cervical spinal cord injury often leaves patients unable to perform basic motor and respiratory functions independently. This work develops closed-loop neural decoding methods that pair epidural spinal cord stimulation with brain-computer interfaces to help restore lost function — including hand grip and respiratory drive — in tetraplegic populations. Current efforts focus on decoding motor intent from EEG in real time and characterizing how stimulation changes cortical activity during voluntary movement.</p>
+                  <div class="container"><figure><img src="research_bci_spinal.jpg" width="100%" alt="Spinal cord neuromodulation research"/></figure></div> -->
+                  <!-- <div class="container"><figure><img src="rpres.jpg" width="100%" alt="Spinal cord neuromodulation research"/></figure></div> -->
+                  Using multi-modal (Electroencephalography [EEG], Electromyography [EMG]) to characterize
+                   neurophysiological responses of Spinal Cord Injury (SCI) patients to Epidural Spinal Stimulation (ESS).
+                   Leveraging Evoked Compound Action Potential (ECAP) for pathway decoding.
+
+               <table style="width:100%;border:none;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                                     <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='research_overlap2026.png' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="hhttps://doi.org/10.1007/978-3-032-13729-6_28"> </a> -->
+                         <span class="papertitle"><b>Decoding Overlapping Lower-Limb Afferent Pathways from Human Epidural Spinal Recordings.</b></span><br>
+                       Steele A, <strong>Candela M</strong>, Huff G, Howes-Keith A, Martin C, Oh J, Faraji A, & Sayenko D<br>
+
+                       <em>arXiv</em>, 2026<br>
+                       <a href="https://doi.org/10.21203/rs.3.rs-10348238/v1">preprint</a>
+                 </td></tr>
+
+               <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='research_interface2026.png' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="hhttps://doi.org/10.1007/978-3-032-13729-6_28"> </a> -->
+                         <span class="papertitle"><b>Effects of Epidural Spinal Stimulation on Cortical Activity and Motor Output During Power Grip in Cervical Spinal Cord Injury.</b></span><br>
+                       <strong>Candela M</strong>, Oh J, Faraji A, & Sayenko D<br>
+
+                       <em>InterfaceNeuro</em>, 2026<br>
+                       <a href="https://miltoncandela.com/pres_2026interneuro_effects.pdf">abstract</a> /
+                         <a href="https://miltoncandela.com/pres_2026interneuro_effectsPoster.pdf">poster</a>
+                 </td></tr>
+                 </tbody></table>
+
+               </div>
+
+               <!-- ================= PROJECT 2 ================= -->
+               <div class="project-section">
+                  <h3>Characterizing cognitive and affective states for closed-loop neuroeducation</h3>
+                  <!-- <p class="role-line">First-authored 4 of the 5 works below.</p> -->
+                  <!-- <p>Traditional teaching methods often lack personalized approaches, but leveraging biometrics can revolutionize education by tailoring learning experiences to individual students' needs. By monitoring health-related features and students' behavior through wearables and biometric sensors, educators gain insights into cognitive states such as mental fatigue, engineering interest, emotions, cognitive load, and attention. Through innovative computational neuroscience methods and parsimonious Machine Learning (ML) models, educators can extract biologically-relevant insights in real-time.</p> -->
+                  <p>Using multi-modal (Electroencephalography [EEG], Photoplethysmogram [PPG], Electrodermal Activity [EDA])
+                      to characterize neurophysiological responses of mental fatigue, emotion, load, and attention;
+                      further paired with audiovisual and haptic feedback.</p>
+                  <!-- <div class="container"><figure><img src="research_neurocog.jpg" width="100%" alt="Neuroeducation research"/></figure></div> -->
+
+                  <table style="width:100%;border:none;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                  <!-- missing AyA, and maybe chess? or the STEM conf proceeding? -->
+
+                  <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='https://www.frontiersin.org/api/ipx/f=webp/https://www.frontiersin.org/files/Articles/1908489/xml-images/fnsys-20-1908489-g0003.webp' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="hhttps://doi.org/10.1007/978-3-032-13729-6_28"> </a> -->
+                         <span class="papertitle"><b>Are you Afraid? Neurophysiological and Autonomic Responses to Fear in a Semi-Immersive Interactive Environment</b></span><br>
+                       <strong>Candela MO</strong>, Calderón-Gurubel JE, Ortiz-Espinoza AA, Elizondo-Garcia J, Vélez-Saboyá CS,
+                         Lozoya-Santos JJ, Rodriguez-Sanchez I, Cebral-Loureda M, Ramírez-Moreno MA<br>
+                       <em>Frontiers in Systems Neuroscience</em>, 2026<br>
+                       <a href="https://doi.org/10.3389/fnsys.2026.1908489">paper</a> /
+                       <a href="https://github.com/miltoncandela/neurohumanities-lab">code</a>
+                 </td></tr>
+
+                  <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='research_SOMIB2025.png' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="hhttps://doi.org/10.1007/978-3-032-13729-6_28"> </a> -->
+                         <span class="papertitle"><b>Closed-Loop Haptic Neurofeedback BCI for Real-Time Student Attention Regulation</b></span><br>
+                       <strong>Milton O. Candela-Leal</strong>, Luis A. Marrufo-Franco, Baudel H. Ruiz-de-la-Fuente,
+                       César F. Cruz-Gómez & Mauricio A. Ramírez-Moreno <br>
+                       <em>48<sup>th</sup> CNIB</em>, 2026<br>
+                       <a href="https://doi.org/10.1007/978-3-032-13729-6_28">conference proceeding</a> /
+                       <a href="https://github.com/miltoncandela/closed-attention-BCI">code</a>
+                 </td></tr>
+
+                  <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='https://ars.els-cdn.com/content/image/1-s2.0-S0001691825002628-gr3.jpg' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="https://doi.org/10.1016/j.actpsy.2025.104949"> </a> -->
+                         <span class="papertitle"><b>Neural signatures of STEM learning and interest in youth</b></span><br>
+                       <strong>Milton O. Candela-Leal</strong>, Myriam Alanis-Espinosa, Jorge Murrieta-González, Jorge de-J. Lozoya-Santos, Mauricio A. Ramírez-Moreno<br>
+                       <em>Acta Psychologica</em>, 2025<br>
+                       <a href="https://doi.org/10.1016/j.actpsy.2025.104949">paper</a> /
+                       <a href="https://github.com/miltoncandela/STEM-talent-detection">code</a>
+                 </td></tr>
+
+                  <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='https://www.frontiersin.org/api/ipx/f=webp/https://www.frontiersin.org/files/Articles/1319574/xml-images/fnhum-18-1319574-g0004.webp' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="https://doi.org/10.3390/app12115424"> </a> -->
+                         <span class="papertitle"><b>Real-time EEG-based emotion recognition for neurohumanities: perspectives from PCA and tree-based algorithms</b></span><br>
+                       Miguel A. Blanco-Ríos*, <strong>Milton O. Candela-Leal</strong>*, Cecilia Orozco-Romo,
+                       Paulina Remis-Sernan, Carol S. Vélez-Saboyá, Jorge de-J. Lozoya-Santos,
+                       Manuel Cebral-Loureda, Mauricio A. Ramírez-Moreno<br>
+                       <em>*joint first authorship</em><br>
+                       <em>Frontiers in Human Neuroscience</em>, 2024<br>
+                       <a href="https://doi.org/10.3389/fnhum.2024.1319574">paper</a> /
+                       <a href="https://github.com/miltoncandela/neurohumanities-lab">code</a>
+                 </td></tr>
+
+                  <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='https://www.mdpi.com/ijerph/ijerph-18-11891/article_deploy/html/images/ijerph-18-11891-g001.png' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="https://doi.org/10.3390/ijerph182211891"> </a> -->
+                         <span class="papertitle"><b>Evaluation of a Fast Test Based on Biometric Signals to Assess Mental Fatigue at the Workplace—A Pilot Study</b></span><br>
+                       Mauricio A. Ramírez-Moreno, Patricio Carrillo-Tijerina, <strong>Milton O. Candela-Leal</strong>,
+                       Myriam Alanis-Espinosa, Juan C. Tudón-Martínez, Armando Roman-Flores, Ricardo A. Ramírez-Mendoza, Jorge de-J. Lozoya-Santos<br>
+
+                       <em>IJERPH</em>, 2021<br>
+                       <a href="https://doi.org/10.3390/ijerph182211891">paper</a>
+                 </td></tr>
+                  </tbody></table>
+               </div>
+
+               <!-- ================= PROJECT 3 ================= -->
+               <div class="project-section">
+                  <h3>Investigating trajectories of fetal cortical maturation</h3>
+                  <p>Using attention-gated U-Net to segment (sub)cortical fetal brain structures (CSF, GM, WM, ventricles,
+                      cerebellum, deep GM, brainstem) for typical development characterization.</p>
+                  <!-- <p class="role-line">Co-authored the published study; first-authored the FALCONS segmentation framework.</p> -->
+                  <!-- <p>In-utero fetal Magnetic Resonance Imaging (MRI) is a vital tool for studying brain development and detecting congenital disorders. To address the limitations of traditional segmentation, this research integrates deep learning-based segmentation, leveraging multi-view aggregation, hybrid loss functions, and data augmentation via a trained attention-gated UNet model.</p> -->
+                  <!-- <div class="container"><figure><img src="research_fetal.jpg" width="100%" alt="Fetal brain imaging research"/></figure></div> -->
+
+                  <table style="width:100%;border:none;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                  <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='research_PNAS2026.jpg' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="https://doi.org/10.1073/pnas.2528620123"> </a> -->
+                         <span class="papertitle"><b>Typical development of the human fetal subplate: Regional heterogeneity, growth, and asymmetry assessed by in vivo T2-weighted MRI</b></span><br>
+                       Andrea Gondová, Jennings Zhang, Sungmin You, Seungyoon Jeong, <strong>Milton O. Candela-Leal</strong>,
+                       Caitlin K. Rollins, Patricia E. Grant, Hyuk Jin Yun, Kiho Im<br>
+                       <em>PNAS</em>, 2026<br>
+                       <a href="https://doi.org/10.1073/pnas.2528620123">paper</a> /
+                       <a href="https://github.com/AdaGondova/Gondova_2026">code</a>
+                 </td></tr>
+
+                  <!-- <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='https://ars.els-cdn.com/content/image/1-s2.0-S0001691825002628-gr3.jpg' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                         <span class="papertitle"><b>Regional Analysis of Error Patterns from Automatic Cortical Plate Segmentation in Fetal Brain MRI</b></span><br>
+
+                       Bowen Qiu, Andrea Gondova, Sungmin You, <strong>Milton Candela-Leal</strong>, Hanuman Verma,
+                        Seungyoon Jeong, P. Ellen Grant, Kiho Im<br>
+                       <em>31st OHBM</em>, 2025<br>
+                       <a href="https://miltoncandela.com/pres_2025ohbm_regional.pdf">abstract</a>
+                 </td></tr> -->
+
+                  <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='research_ohbmsp2025.png' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="https://doi.org/10.1073/pnas.2528620123"> </a> -->
+                         <span class="papertitle"><b>Attention-gated Convolutional Neural Network for Automated Segmentation of Fetal Subplate from MRI</b></span><br>
+                        Andrea Gondova, <strong>Milton O. Candela-Leal</strong>, Hyuk Jin Yun, Sungmin You,
+                        Seungyoon Jeong, Marsol Aguilar, P. Ellen Grant, Kiho Im<br>
+                       <em>31st OHBM</em>, 2025<br>
+                       <a href="https://miltoncandela.com/pres_2025ohbm_sp.pdf">abstract</a>
+                 </td></tr>
+
+                  <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='research_MICCAI2024.png' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="https://doi.org/10.1073/pnas.2528620123"> </a> -->
+                         <span class="papertitle"><b>FALCONS: Fetal Automatic Landmark Computation and Optimization for Neuroimaging Segmentation</b></span><br>
+                       <strong>Milton O. Candela-Leal</strong>, Andrea Gondova, Sungmin You, P. Ellen Grant, Kiho Im<br>
+                       <em>27th MICCAI</em>, 2024<br>
+                       <a href="https://doi.org/10.13140/RG.2.2.34905.94561">poster</a>
+                 </td></tr>
+
+                  </tbody></table>
+
+                  </div>
+
+
+               <!-- ================= PROJECT 4 ================= -->
+               <div class="project-section">
+                  <h3>Modeling human movement with deep learning</h3>
+                  <p>Using Recurrent Neural Networks (RNN) to predict kinetics (acceleration, force) using
+                      kinematics (position), either through physical and predicted motion capture markers.</p>
+                  <!-- <p class="role-line">First-authored both works below.</p> -->
+                  <!-- <p>Reliable force and motion estimation methods are essential for optimizing athletic performance, preventing injuries, and improving rehabilitation. This research integrates Computer Vision, wearable sensors, and deep learning to develop automated biomechanical assessment tools, using a trained RNN to predict joint accelerations and force distributions from video and sensor data.</p> -->
+                  <!-- <div class="container"><figure><img src="research_biomec.jpg" width="100%" alt="Human biomechanics research"/></figure></div> -->
+
+                  <table style="width:100%;border:none;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                  <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='research_biomec2023.png' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="https://doi.org/10.3390/app12115424"> -->
+                         <span class="papertitle"><b>Biomechanics Digital Twin: Markerless Joint Acceleration Prediction Using Machine Learning and Computer Vision</b></span><br>
+                        <strong>Leal MOC</strong>, Diaz DM, Romo CO, Herrera AJA, Herrera JEM, Ramirez AEM, Cruz LOS, Gomez CFC, Ruiz SXC,
+                        Flores EAG, Hernandez KLR, Jimenez EAD, Mendoza RAR, Espinosa GP, Santos JJL, & Moreno MAR<br>
+                        <!-- <em>Proc. IEEE Workshop</em>, 2023<br> -->
+                         <em>Future of Educational Innovation-Workshop Series Data in Action</em>, 2023<br>
+
+                       <a href="https://doi.org/10.1109/IEEECONF56852.2023.10104757">conference proceeding</a> /
+                       <a href="https://github.com/miltoncandela/rnn-force-prediction">code</a>
+                 </td></tr>
+
+                  <tr><td style="padding:16px;width:20%;vertical-align:middle;border:none">
+                     <div class="one"><img src='https://www.mdpi.com/applsci/applsci-12-05424/article_deploy/html/images/applsci-12-05424-g008.png' width=100%></div>
+                     </td>
+                     <td style="padding:8px;width:80%;vertical-align:middle;border:none">
+                       <!-- <a href="https://doi.org/10.3390/app12115424"> -->
+                         <span class="papertitle"><b>Multi-Output Sequential Deep Learning Model for Athlete Force Prediction on a Treadmill Using 3D Markers</b></span><br>
+                       <strong>Milton O. Candela-Leal</strong>, Erick Adrián Gutiérrez-Flores, Gerardo Presbítero-Espinosa,
+                       Akshay Sujatha-Ravindran, Ricardo A. Ramírez-Mendoza, Jorge de-J. Lozoya-Santos, Mauricio A. Ramírez-Moreno<br>
+                       <em>Applied Sciences</em>, 2022<br>
+                       <a href="https://doi.org/10.3390/app12115424">paper</a> /
+                       <a href="https://github.com/miltoncandela/rnn-force-prediction">code</a>
+                 </td></tr>
+                  </tbody></table>
+               </div>
+
+               <footer class="page__meta"></footer>
+            </div>
+        </article>
+      </div>
+
+      <div class="page__footer">
+         <footer>
+            <a href="/sitemap/">Sitemap</a>
+            <div class="page__footer-follow">
+               <ul class="social-icons">
+                  <li><strong>Follow:</strong></li>
+                  <li><a href="http://github.com/miltoncandela"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+                  <li><a href="https://miltoncandela.com/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+               </ul>
+            </div>
+            <div class="page__footer-copyright">&copy; 2026 Milton Candela. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+         </footer>
+      </div>
+      <script src="https://miltoncandela.com/assets/js/main.min.js"></script>
+   </body>
+</html>
